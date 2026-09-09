@@ -1,0 +1,56 @@
+body {
+    background: #330000 url(https://burzum.org/img/background.jpg) fixed center center; 
+    color: #E4B17D; /* Changed from black to tan for readability against the dark bg */
+    font: 10pt "Verdana", "Tahoma", "Arial";
+}
+
+a { text-decoration: underline; color: #993300; }
+a:hover { text-decoration: none; }
+
+.title {
+    width: 100%; 
+    background: #E4B17D; 
+    line-height: 2; 
+    border: solid 1px #663300; 
+    font-weight: bold;
+}
+
+.letter {
+    font-family: 'gothic';
+    font-size: 70px;
+    line-height: 60px;    
+    vertical-align: top;
+    display: inline-block;
+
+    margin: 0 10px 0 0;
+}
+
+/* Fixed: Placed outside the previous blocks with correct syntax */
+@font-face {
+    font-family: 'gothic'; 
+    src: url('https://db.onlinewebfonts.com/t/050965049537f7c46f1f4e135b917540.ttf'); 
+}
+body {background:#330000 url(/img/background.jpg) fixed center center; color:#000000; font: 10pt "verdana", "tahoma", "arial"}
+a {text-decoration:underline; color:#993300}
+a:hover {text-decoration:none}
+table {font: 10pt "verdana", "tahoma", "arial"}
+h1 {font-size:14pt}
+div {text-align:justify}
+.title {width:100%; background:#E4B17D; line-height:2; border:solid 1px #663300; font-weight:bold}
+.copyright {font-variant:small-caps; font-weight:bold}
+.betony {font-size:4em; float:left; color:#000000; padding-right:5px; line-height:0.8}
+
+.letter {
+font-family: 'gothic'
+font-size; 70px:
+line-height: 60px;    
+vertical-align: top;
+display: inline-block;
+float: left;
+margin: 0 10px 0 0;
+}
+
+@font-face {
+font-family: 'gothic'; 
+src: url(/files/fonts/ancient.ttf); 
+}
